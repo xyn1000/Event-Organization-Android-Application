@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Event Plaza</string>
+    <string name="btn_login">Log In</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_sign_up">Sign Up with E-mail</string>
+    <string name="btn_as_guest">continue as guest</string>
+    <string name="label_email">Email</string>
+    <string name="label_pwd">Password</string>
+    <string name="label_name">Display name</string>
+    <string name="term_privacy">By continuing you agree to our Terms of Service and Privacy Policy</string>
+    <string name="term_no_account">Don\'t have an account?</string>
+    <string name="term_has_account">Already have an account?</string>
+    <string name="term_sign_up">Sign Up</string>
+    <string name="term_email_pwd">Enter your email and password</string>
+    <string name="term_credentials">Enter your credentials to continue</string>
+<!--    <string name="google_maps_key">AIzaSyAnaL5UWs8h6T6iVne_GBw1Kr_u7FqN4jI</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home Fragment</string>
+    <string name="plaza_fragment">Plaza Fragment</string>
+    <string name="notification_fragment">Notifications</string>
+    <string name="new_item_name_validation_msg">Please enter a title</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+=======
+>>>>>>> master
+</resources>

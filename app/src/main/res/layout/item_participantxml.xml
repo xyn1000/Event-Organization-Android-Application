@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/fruit_image"
+        android:src="@drawable/icon_account"
+        android:scaleType="fitStart"
+        android:layout_margin="5dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/participantName"
+        android:layout_width="250dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"/>
+</LinearLayout>

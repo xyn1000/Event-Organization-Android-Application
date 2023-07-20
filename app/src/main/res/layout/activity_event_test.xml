@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".event.EventTestActivity">
+    <Button
+        android:id="@+id/toEventActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to Event Activity"
+        android:onClick="toEventActivity"/>
+    <Button
+        android:id="@+id/toManageEventActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="to Manage Event Activity"
+        android:onClick="toManageEventActivity"/>
+    <Button
+        android:id="@+id/toRatingEventActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="to Rating Event Activity"
+        android:onClick="toRatingEventActivity"/>
+</LinearLayout>

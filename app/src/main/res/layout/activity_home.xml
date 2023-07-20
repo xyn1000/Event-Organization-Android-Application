@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:gravity="center_vertical"
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rd1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/radiobutton_home"
+            android:gravity="center"
+            android:text="Home"
+            android:textColor="@color/select_home" />
+
+        <RadioButton
+            android:id="@+id/rd2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/radiobutton_search"
+            android:gravity="center"
+            android:text="Search"
+            android:textColor="@color/select_home" />
+
+        <RadioButton
+            android:id="@+id/rd3"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/radiobutton_plaza"
+            android:gravity="center"
+            android:fontFamily="@font/inter_semi_bold"
+            android:text="Plaza"
+            android:textColor="@color/select_home" />
+
+        <RadioButton
+            android:id="@+id/rd4"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/radiobutton_notifications"
+            android:gravity="center"
+            android:fontFamily="@font/inter_semi_bold"
+            android:text="Notification"
+            android:textColor="@color/select_home" />
+
+        <RadioButton
+            android:id="@+id/rd5"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/radiobutton_account"
+            android:gravity="center"
+            android:fontFamily="@font/inter_semi_bold"
+            android:text="Account"
+            android:textColor="@color/select_home" />
+    </RadioGroup>
+</LinearLayout>

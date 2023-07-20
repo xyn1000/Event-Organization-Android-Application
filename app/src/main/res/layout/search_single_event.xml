@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="390dp"
+    android:layout_height="190dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    >
+                        <TextView
+                            android:id="@+id/searchEventDateTime"
+                            android:layout_width="170dp"
+                            android:layout_height="30dp"
+                            android:text="Fri, 10, Oct, 19:00-20:00"
+                            android:textStyle="bold"
+                            android:textColor="#eb4034"
+                            />
+                        <TextView
+                            android:id="@+id/searchEventTitle"
+                            android:layout_width="170dp"
+                            android:layout_height="40dp"
+                            android:text="Title"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/searchEventLocation"
+                            android:layout_width="170dp"
+                            android:layout_height="20dp"
+
+                            android:text="Burwood Sydney"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#d7ffcc"
+                            android:padding="5dp"
+                        android:layout_marginTop="5dp"
+                            >
+                                <TextView
+                                    android:id="@+id/searchEventNumOfPeople"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Participants "
+                                    android:textColor="#2cc75b" />
+                                <TextView
+                                    android:id="@+id/participant"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="5"
+                                    android:textColor="#2cc75b"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="/"
+                                    android:textColor="#2cc75b"
+                                    />
+                                <TextView
+                                    android:id="@+id/max_participant"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="7"
+                                    android:textColor="#2cc75b"
+                                    />
+                        </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/searchEventImage"
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:scaleType="center"
+                    android:background="@color/black"
+
+                    />
+        </LinearLayout>
+</androidx.cardview.widget.CardView>
